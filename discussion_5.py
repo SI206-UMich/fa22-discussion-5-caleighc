@@ -84,6 +84,7 @@ class TestAllMethods(unittest.TestCase):
 	def test_count_a(self):
 		self.assertEqual(count_a("Yesterday I swam with my Dad"),3)
 		self.assertEqual(count_a("Andrew ate apples after Aron's athletic adventure"),7)
+		self.assertEqual(count_a("I like to surf"),0)
 
 
 	## Check to see whether you can add an item to the warehouse
