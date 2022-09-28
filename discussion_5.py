@@ -42,7 +42,7 @@ class Warehouse:
 		self.items.append(item)
 
 	# Returns the item in the warehouse with the most stock	
-	# Not sure if we are supposed to be returning
+	# Not sure if we are supposed to be returning item.name or the item object 
 	def get_max_stock(self):
 		max_stock = self.items[0].stock
 		temp = self.items[0].name
@@ -53,6 +53,7 @@ class Warehouse:
 		return temp
 
 	# Returns the item in the warehouse with the highest price
+	# Not sure if we are supposed to be returning item.name or the item object 
 	def get_max_price(self):
 		max_price = self.items[0].price
 		temp = self.items[0].name
