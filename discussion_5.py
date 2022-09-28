@@ -1,7 +1,11 @@
+# Caleigh Crossman 
+# Discussion 5
+
 import unittest
 
 # Counts the number of a's in a sentence (e.g., a string)
-# Not sure if this is supposed to be counting capital A's??
+# Not sure if this is supposed to be counting capital A's but I added it because my test cases 
+# include counting capitals
 def count_a(sentence):
 	total = 0
 	for i in range(len(sentence) - 1):
